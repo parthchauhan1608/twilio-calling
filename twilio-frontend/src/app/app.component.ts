@@ -24,7 +24,7 @@ export class AppComponent {
         // deprecated need to check
         device.on('ready',(ready)=>{
           console.log({ready});
-          let params = {number: '+917566114703'}
+          let params = {number: '+91756xxxxxxx'}
           device.connect(params)
         })
         device.on('error',(error)=>{
